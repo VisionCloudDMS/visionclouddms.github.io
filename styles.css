@@ -1,0 +1,20 @@
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+#logo {
+    width: 128px;
+    height: 128px;
+    background-image: url("logo.svg");
+    background-size: 100% 100%;
+    margin: 96px auto 0;
+}
+h1 {
+    color: #505050;
+    font: 700 28pt/1 "Roboto Condensed",sans-serif;
+    margin: 8px 0 0;
+    text-align: center;
+}
